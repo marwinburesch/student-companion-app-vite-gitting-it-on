@@ -22,7 +22,7 @@ body {
   font-size: 16px;
   grid-row: header;
   text-align: center;
-  border: 0;
+  margin-bottom: 0;
 }
 
 /* wrapped in base-h1-h2-wrapper */
@@ -33,6 +33,7 @@ body {
   font-size: 12px;
   grid-row: header;
   text-align: center;
+  margin-top: 0;
 }
 
 /* .base-h1-h2-wrapper {
