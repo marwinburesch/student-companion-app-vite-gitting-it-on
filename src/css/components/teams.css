@@ -1,0 +1,15 @@
+.team {
+}
+
+.team__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.team__list__item {
+  border: 1px solid var(--color-border);
+  padding: 18px 79.5px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-secondary);
+}
