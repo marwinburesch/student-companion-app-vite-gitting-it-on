@@ -37,6 +37,7 @@ body {
   color: red;
   grid-row: main;
   overflow-y: scroll;
+  margin: 10px;
 }
 .footer-grid {
   color: green;
