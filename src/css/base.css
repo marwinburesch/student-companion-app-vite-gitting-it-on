@@ -5,9 +5,87 @@
 body,
 html {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
   font-size: 112.5%;
   font-family: sans-serif;
+}
+
+/* wrapped in base-h1-h2-wrapper */
+.welcome {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  grid-row: header;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* wrapped in base-h1-h2-wrapper */
+
+.header-h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  grid-row: header;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* .base-h1-h2-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 150px 25px 149px;
+} */
+
+.layout-grid {
+  display: grid;
+  grid-template-rows: [header] 59px [main] auto [footer] 59px;
+  width: 375px;
+  height: 100vh;
+}
+
+.header-grid {
+  position: relative;
+  color: blue;
+  grid-row: header;
+  width: 375px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-image: url(/src/background_shape_1.svg);
+  justify-content: center;
+  align-items: center;
+}
+.main-grid {
+  color: red;
+  grid-row: main;
+  overflow-y: scroll; /* turn this off later */
+  margin: 10px;
+}
+.footer-grid {
+  /* check scrollable content underneath */
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  color: green;
+  grid-row: footer;
+  overflow-y: hidden;
+  height: 44px;
+  width: 335px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.11), 0 5px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-self: center;
+  margin: 0 10px;
+}
+
+/*SVG HEADER IMAGE*/
+#background_shape_1 {
+  grid-row: header;
+  grid-column: width;
+  align-items: center;
 }
