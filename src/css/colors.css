@@ -1,4 +1,12 @@
 :root {
-  --color-primary: springgreen;
-  --color-secondary: #2b2826;
+  --color-primary-blue: #193251;
+  --color-secondary: #7589a2;
+  --color-empty-icon: #e0e4e8;
+  --color-header: #f8f8f8;
+  --color-border: #e0e4e8;
+  --color-primary-red: #ff5a36;
+  --color-75: #ff9c86;
+  --color-50: #ffbdaf;
+  --color-25: #ffded7;
+  --color-dark-background: #ffffff;
 }
