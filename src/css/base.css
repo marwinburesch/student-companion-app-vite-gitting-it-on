@@ -5,9 +5,51 @@
 body,
 html {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
   font-size: 112.5%;
   font-family: sans-serif;
+}
+
+.welcome {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-rows: [header] 59px [main] auto [footer] 59px;
+  grid-template-columns: [width] 375px;
+  height: 100vh;
+}
+
+.header-grid {
+  position: relative;
+  background-color: blue;
+  grid-column: width;
+  grid-row: header;
+}
+.main-grid {
+  background-color: red;
+  grid-column: width;
+  grid-row: main;
+}
+.footer-grid {
+  background-color: green;
+  grid-column: width;
+  grid-row: footer;
+}
+
+/*SVG HEADER IMAGE*/
+#background_shape_1 {
+  grid-row: header;
+  max-height: 80px;
+  grid-column: width;
+  top: 0%;
+  align-items: center;
 }
