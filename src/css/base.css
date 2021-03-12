@@ -40,9 +40,16 @@ body {
   margin: 10px;
 }
 .footer-grid {
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
   color: green;
   grid-row: footer;
   overflow-y: hidden;
+  height: 44px;
+  width: 335px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.11), 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .main-p__lorem {
