@@ -47,6 +47,8 @@ body {
   grid-template-rows: [header] 59px [main] auto [footer] 59px;
   width: 375px;
   height: 100vh;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .header-grid {
@@ -64,7 +66,6 @@ body {
   color: red;
   grid-row: main;
   overflow-y: scroll; /* turn this off later */
-  margin: 10px;
 }
 .footer-grid {
   /* check scrollable content underneath */
