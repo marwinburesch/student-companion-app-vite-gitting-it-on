@@ -18,37 +18,38 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 50;
 }
 
 .layout-grid {
   display: grid;
   grid-template-rows: [header] 59px [main] auto [footer] 59px;
-  grid-template-columns: [width] 375px;
+  width: 375px;
   height: 100vh;
 }
 
 .header-grid {
   position: relative;
-  background-color: blue;
-  grid-column: width;
+  color: blue;
   grid-row: header;
+  overflow-y: hidden;
 }
 .main-grid {
-  background-color: red;
-  grid-column: width;
+  color: red;
   grid-row: main;
+  overflow-y: scroll;
 }
 .footer-grid {
-  background-color: green;
-  grid-column: width;
+  color: green;
   grid-row: footer;
+  overflow-y: hidden;
+}
+
+.main-p__lorem {
 }
 
 /*SVG HEADER IMAGE*/
 #background_shape_1 {
   grid-row: header;
-  max-height: 80px;
   grid-column: width;
   top: 0%;
   align-items: center;
