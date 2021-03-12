@@ -64,7 +64,7 @@ body {
   color: red;
   grid-row: main;
   overflow-y: scroll; /* turn this off later */
-  margin: 10px;
+  margin: 0 30px;
 }
 .footer-grid {
   /* check scrollable content underneath */
