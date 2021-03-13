@@ -55,6 +55,11 @@ h3 {
   margin-top: 30px;
 }
 
+/* h3 {
+  font-size: 14px;
+  color: var(--color-primary-blue);
+  font-weight: 500;
+} */
 /* .base-h1-h2-wrapper {
   display: flex;
   flex-direction: column;
@@ -112,12 +117,6 @@ h3 {
   grid-column: width;
   align-items: center;
 } */
-
-h3 {
-  font-size: 14px;
-  color: var(--color-primary-blue);
-  font-weight: 500;
-}
 
 h4 {
   font-size: 14px;
