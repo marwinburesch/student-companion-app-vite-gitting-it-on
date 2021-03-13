@@ -19,12 +19,12 @@
   flex-direction: column;
   position: absolute;
   left: 40px;
-  top: -8px;
+  top: 41.5px;
 }
 
 .whole-graph {
   position: absolute;
-  top: -62.42px;
+  top: -12.42px;
 }
 
 .title {
@@ -94,6 +94,11 @@
   color: var(--color-primary-blue);
 }
 
+.energy-title {
+  position: absolute;
+  top: 10px;
+}
+
 .bar,
 .black {
   justify-self: left;
@@ -110,13 +115,14 @@
   bottom: 20px;
   width: 31px;
   padding: 0 25.9px 0 0;
+  font-weight: 200;
 }
 
 .time-stamp-parent {
   display: flex;
   position: absolute;
-  bottom: 15px;
-  left: 20px;
+  bottom: 27px;
+  left: 27px;
   width: 260px;
   justify-content: space-between;
 }
@@ -124,15 +130,18 @@
 /* percentage divs */
 
 .percent-stamp {
-  line-height: 2.3;
+  line-height: 3.5;
   size: 12px;
   color: var(--color-secondary);
   position: absolute;
   top: -247px;
+  left: 0px;
+  font-weight: 200;
 }
 
 .stamps {
   position: relative;
+  font-size: 12px;
 }
 
 /* graph lines */
