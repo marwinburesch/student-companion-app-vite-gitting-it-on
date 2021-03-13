@@ -2,7 +2,7 @@
 
 .graph-title {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: var(--color-primary-blue);
@@ -10,7 +10,7 @@
 
 .energy-title {
   position: absolute;
-  top: 10px;
+  top: 20px;
 }
 
 .graph-parent {
@@ -45,18 +45,19 @@
 
 .graph-lines {
   height: 202px;
-  width: 260px;
+  width: 279px;
   color: var(--color-border);
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 40px;
-  top: 11.5px;
+  right: 0px;
+  top: 41px;
 }
 
 .whole-graph {
   position: absolute;
-  top: -42.42px;
+  top: -13.42px;
+  left: 20px;
 }
 
 .chart-wrap {
@@ -98,9 +99,8 @@
 .grid {
   position: relative;
   padding: 5px 0 5px 0;
-  height: 240px; /* width! */
-  width: 202px; /* height! */
-  border-left: var(--color-empty-icon) 1px solid;
+  height: 0px; /* width! */
+  width: 0px; /* height! */
   background: repeating-linear-gradient(
     90deg,
     transparent,
@@ -167,8 +167,8 @@
   size: 12px;
   color: var(--color-secondary);
   position: absolute;
-  top: -247px;
-  left: 0px;
+  top: -245px;
+  left: -20px;
   font-weight: 200;
 }
 
