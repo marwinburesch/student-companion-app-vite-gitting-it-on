@@ -28,7 +28,8 @@
 
 .energy-level-title {
   position: relative;
-  top: 310px;
+  top: 340px;
+  left: 0px;
   font-size: 14px;
   line-height: 1.143;
 }
@@ -182,7 +183,7 @@
 }
 
 .graph-comparison-boxes {
-  margin-top: 10px;
+  margin-top: -10px;
 }
 
 .other-students {
@@ -214,7 +215,7 @@
   height: 45px;
   text-align: center;
   justify-self: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 24px;
   padding: 12px 0;
