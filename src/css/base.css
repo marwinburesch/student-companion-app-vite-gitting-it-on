@@ -58,12 +58,14 @@ h4 {
   font-size: 14px;
   color: var(--color-primary-blue);
   font-weight: 500;
+  margin: 0px 0 10px 0;
 }
 
 h6 {
   color: var(--color-secondary);
   font-size: 12px;
   font-weight: 200;
+  margin: 20px 0 10px 0;
 }
 
 .layout-grid {
