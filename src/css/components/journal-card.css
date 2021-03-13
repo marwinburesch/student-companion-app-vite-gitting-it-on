@@ -25,6 +25,11 @@
   margin: 0;
 }
 
+.form-subtitles {
+  font-weight: 600;
+  color: var(--color-primary-blue);
+}
+
 .star-grey,
 .icon-grey {
   filter: grayscale(100%);
@@ -41,11 +46,10 @@
 }
 
 .empty-star {
-  transform: scale(1.4583157);
+  transform: scale(2);
   color: var(--color-secondary);
   opacity: 80.6%;
-
-  padding: 0 14.625px;
+  padding: 12px 14.625px 12.77px 14.625px;
 }
 
 .empty-box-parent {
@@ -59,20 +63,23 @@
   opacity: 80.6%;
   margin: 0 7px;
   border-radius: 4.8px;
+  padding: 12px 1.5px 10px 1.5px;
 }
 
 .motto {
   width: 100%;
-  height: 10vh;
+  height: 62px;
   border-radius: 4px;
   border: var(--color-border) 1px solid;
+  padding: 20px;
 }
 
 .notes {
   width: 100%;
-  height: 15vh;
+  height: 124px;
   border-radius: 4px;
   border: var(--color-border) 1px solid;
+  padding: 20px;
 }
 
 .journal-buttons-parent {
