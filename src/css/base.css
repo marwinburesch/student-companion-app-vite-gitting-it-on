@@ -115,17 +115,3 @@ h6 {
   font-size: 12px;
   font-weight: 200;
 }
-
-.star-grey,
-.icon-grey {
-  filter: grayscale(100%);
-  opacity: 10.6%;
-}
-
-.star-gap {
-  margin: 5.045px;
-}
-
-.empty-star {
-  transform: scale(1.5);
-}

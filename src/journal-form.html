@@ -6,6 +6,10 @@
     <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
     <!-- link CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0a5eba83a2.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Student Companion App</title>
   </head>
@@ -21,29 +25,38 @@
           <h3>Today, 12.07.2020</h3>
           <form>
             <h6>Rating:</h6>
-            <img src="./Star.svg" alt="star icon" class="empty-star star-gap" />
-            <img src="./Star.svg" alt="star icon" class="empty-star star-gap" />
-            <img src="./Star.svg" alt="star icon" class="empty-star star-gap" />
-            <img src="./Star.svg" alt="star icon" class="empty-star star-gap" />
-            <img src="./Star.svg" alt="star icon" class="empty-star star-gap" />
+            <div class="empty-star-parent">
+              <i class="far fa-star empty-star"></i>
+              <i class="far fa-star empty-star"></i>
+              <i class="far fa-star empty-star"></i>
+              <i class="far fa-star empty-star"></i>
+              <i class="far fa-star empty-star"></i>
+            </div>
 
             <h6>Comprehension:</h6>
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
-            <img src="./Rectangle.svg" alt="rectangle icon" />
+            <div class="empty-box-parent">
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+              <i class="far fa-square empty-box"></i>
+            </div>
+
             <h6>Motto:</h6>
-            <textarea id="motto" name="motto"> </textarea>
+            <textarea id="motto" name="motto" class="motto"> </textarea>
             <h6>Notes:</h6>
-            <textarea id="notes" name="notes"> </textarea>
-            <button>Cancel</button>
-            <button>Save &#10004;</button>
+            <textarea id="notes" name="notes" class="notes"> </textarea>
+            <div class="journal-buttons-parent">
+              <button class="journal-form-buttons">Cancel</button>
+              <button class="journal-form-buttons button-orange">
+                Save &#10004;
+              </button>
+            </div>
           </form>
         </div>
       </main>
