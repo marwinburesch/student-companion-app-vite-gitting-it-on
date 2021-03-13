@@ -3,4 +3,5 @@
 @import './base.css';
 @import './components/welcome.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import '/src/css/components/journal-card.css';
 @import './components/teams.css';

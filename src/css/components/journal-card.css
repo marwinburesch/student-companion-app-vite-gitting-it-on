@@ -1,0 +1,22 @@
+.rate-today-button {
+  background-color: rgb(255, 90, 54);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgba(255, 90, 54, 0.4),
+    4px 0px 10px rgba(255, 90, 54, 0.4);
+  border: 0;
+}
+
+.journal {
+  width: 315px;
+  min-height: 345px;
+  margin: 20px 30px;
+  border-radius: 6px;
+  box-shadow: 0 0px 11px rgba(25, 50, 81, 0.2),
+    2px 0px 11px rgba(25, 50, 81, 0.2);
+  padding: 20px;
+}
