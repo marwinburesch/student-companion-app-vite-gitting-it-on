@@ -14,9 +14,10 @@
 .journal {
   width: 315px;
   min-height: 345px;
-  margin: 20px 30px;
+  margin: 20px 0px;
   border-radius: 6px;
   box-shadow: 0 0px 11px rgba(25, 50, 81, 0.2),
     2px 0px 11px rgba(25, 50, 81, 0.2);
   padding: 20px;
+  margin: 0 0px;
 }
