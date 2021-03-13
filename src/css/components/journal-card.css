@@ -90,6 +90,10 @@
   font-size: 16px;
   font-weight: 400;
 }
+.journal-form-buttons a {
+  text-decoration: none;
+  color: var(--color-primary-blue);
+}
 
 .button-orange {
   background-color: var(--color-primary-red);
