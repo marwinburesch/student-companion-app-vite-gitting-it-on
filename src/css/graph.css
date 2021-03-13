@@ -87,7 +87,7 @@
 }
 
 .graph-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
@@ -171,4 +171,49 @@
   background-color: rgb(255, 222, 215);
   color: rgb(255, 90, 54);
   text-align: center;
+}
+
+.energy-level-title {
+  position: absolute;
+  top: 310px;
+  font-size: 14px;
+  line-height: 1.143;
+}
+
+.rating-boxes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -10px;
+  margin: 10px 0px;
+}
+
+.rating-boxes__buttons {
+  border-radius: 5px;
+  width: 315px;
+  height: 45px;
+  text-align: center;
+  justify-self: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 0;
+}
+
+.hundred {
+  background-color: rgb(255, 90, 54);
+  color: rgb(255, 255, 255);
+}
+
+.seventy-five {
+  background-color: rgb(255, 156, 134);
+  color: rgb(255, 255, 255);
+}
+.fifty {
+  background-color: rgb(255, 189, 175);
+  color: rgb(255, 90, 54);
+}
+.twenty-five {
+  background-color: rgb(255, 222, 215);
+  color: rgb(255, 90, 54);
 }
