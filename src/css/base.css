@@ -15,6 +15,13 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  color: var(--color-primary-blue);
+  font-size: 14px;
+  line-height: 1.429;
+  font-weight: 200;
+}
+
 /* wrapped in base-h1-h2-wrapper */
 .welcome {
   font-family: 'Open Sans', sans-serif;
@@ -97,6 +104,12 @@ h3 {
   font-weight: 500;
 }
 
+h4 {
+  font-size: 14px;
+  color: var(--color-primary-blue);
+  font-weight: 500;
+}
+
 h6 {
   color: var(--color-secondary);
   font-size: 12px;
@@ -107,4 +120,12 @@ h6 {
 .icon-grey {
   filter: grayscale(100%);
   opacity: 10.6%;
+}
+
+.star-gap {
+  margin: 5.045px;
+}
+
+.empty-star {
+  transform: scale(1.5);
 }
