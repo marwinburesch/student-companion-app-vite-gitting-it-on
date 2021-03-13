@@ -14,7 +14,7 @@
 .graph-lines {
   height: 202px;
   width: 260px;
-  color: rgb(224, 228, 232);
+  color: var(--color-border);
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -54,7 +54,7 @@
   padding: 5px 0 5px 0;
   height: 240px; /* width! */
   width: 202px; /* height! */
-  border-left: rgb(224, 228, 232) 1px solid;
+  border-left: var(--color-empty-icon) 1px solid;
   background: repeating-linear-gradient(
     90deg,
     transparent,
@@ -67,7 +67,7 @@
   width: var(--bar-value);
   height: 12px;
   margin: 45px 0;
-  background-color: #f16335;
+  background-color: var(--color-primary-red);
   border-radius: 0 8px 8px 0;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .black {
-  background-color: rgb(25, 50, 81) !important;
+  background-color: var(--color-primary-blue) !important;
   position: absolute;
   margin: -45px 0 0 0;
 }
@@ -91,7 +91,7 @@
   font-weight: 600;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  color: rgb(25, 50, 81);
+  color: var(--color-primary-blue);
 }
 
 .bar,
@@ -106,7 +106,7 @@
 .time-stamp {
   line-height: 1.5;
   size: 12px;
-  color: #7589a2;
+  color: var(--color-secondary);
   bottom: 20px;
   width: 31px;
   padding: 0 25.9px 0 0;
@@ -126,7 +126,7 @@
 .percent-stamp {
   line-height: 2.3;
   size: 12px;
-  color: #7589a2;
+  color: var(--color-secondary);
   position: absolute;
   top: -247px;
 }
@@ -139,7 +139,7 @@
 
 .lines {
   z-index: -1;
-  border: rgb(224, 228, 232) 0.5px solid;
+  border: var(--color-empty-icon) 0.5px solid;
   margin-top: 40.4px;
   top: 10px;
 }
@@ -157,8 +157,8 @@
   line-height: 1.5;
   border-radius: 3px;
   width: 106px;
-  background-color: rgb(25, 50, 81);
-  color: white;
+  background-color: var(--color-primary-blue);
+  color: var(--color-dark-background);
   text-align: center;
 }
 
@@ -168,8 +168,8 @@
   border-radius: 3px;
   width: 42px;
   margin-left: 10px;
-  background-color: rgb(255, 222, 215);
-  color: rgb(255, 90, 54);
+  background-color: var(--color-25);
+  color: var(--color-primary-red);
   text-align: center;
 }
 
@@ -201,19 +201,19 @@
 }
 
 .hundred {
-  background-color: rgb(255, 90, 54);
-  color: rgb(255, 255, 255);
+  background-color: var(--color-primary-red);
+  color: var(--color-dark-background);
 }
 
 .seventy-five {
-  background-color: rgb(255, 156, 134);
-  color: rgb(255, 255, 255);
+  background-color: var(--color-75);
+  color: var(--color-dark-background);
 }
 .fifty {
-  background-color: rgb(255, 189, 175);
-  color: rgb(255, 90, 54);
+  background-color: var(--color-50);
+  color: var(--color-primary-red);
 }
 .twenty-five {
-  background-color: rgb(255, 222, 215);
-  color: rgb(255, 90, 54);
+  background-color: var(--color-25);
+  color: var(--color-primary-red);
 }
