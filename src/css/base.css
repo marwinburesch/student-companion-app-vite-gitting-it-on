@@ -90,3 +90,21 @@ body {
   grid-column: width;
   align-items: center;
 }
+
+h3 {
+  font-size: 14px;
+  color: var(--color-primary-blue);
+  font-weight: 500;
+}
+
+h6 {
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.star-grey,
+.icon-grey {
+  filter: grayscale(100%);
+  opacity: 10.6%;
+}

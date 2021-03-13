@@ -9,7 +9,7 @@
   box-shadow: 0 0px 10px rgba(255, 90, 54, 0.4),
     4px 0px 10px rgba(255, 90, 54, 0.4);
   border: 0;
-  margin: 30.42px 87px 20px 57px;
+  margin: 30.42px 87px 0px 57px;
 }
 
 .journal {
@@ -20,5 +20,5 @@
   box-shadow: 0 0px 11px rgba(25, 50, 81, 0.2),
     2px 0px 11px rgba(25, 50, 81, 0.2);
   padding: 20px;
-  margin: 0 0px;
+  margin: 20px 0px;
 }
