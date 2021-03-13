@@ -21,6 +21,10 @@
   margin: 20px 0px;
 }
 
+.dashboard-journal {
+  margin: 0;
+}
+
 .star-grey,
 .icon-grey {
   filter: grayscale(100%);
