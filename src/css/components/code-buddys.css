@@ -1,14 +1,15 @@
-.team {
+.code-buddy {
+  position: relative;
 }
 
-.team__list {
+.code-buddy__list {
   list-style: none;
   padding-left: 0;
   border: 0.5px solid var(--color-border);
   border-radius: 6px;
 }
 
-.team__list__item {
+.code-buddy__list__item {
   border: 0.5px solid var(--color-border);
   padding: 18px 79.5px;
   text-align: center;
@@ -16,10 +17,16 @@
   color: var(--color-secondary);
 }
 
-.team__list__first-item {
+.code-buddy__list__first-item {
   border-radius: 6px 6px 0 0;
 }
 
-.team__list__last-item {
+.code-buddy__list__last-item {
   border-radius: 0 0 6px 6px;
+}
+
+.code-buddy__plus {
+  position: absolute;
+  top: 44px;
+  left: 145px;
 }
