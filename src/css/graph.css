@@ -7,6 +7,26 @@
   position: relative;
 }
 
+.graph-parent {
+  position: relative;
+}
+
+.graph-lines {
+  height: 202px;
+  width: 260px;
+  color: rgb(224, 228, 232);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 40px;
+  top: -8px;
+}
+
+.whole-graph {
+  position: absolute;
+  top: -62.42px;
+}
+
 .title {
   font-weight: bold;
   font-size: 1.62em;
@@ -41,23 +61,6 @@
     transparent 19.5%,
     fadeout(#aaa, 30%) 20%
   );
-}
-.grid::before {
-  font-size: 0.8em;
-  font-weight: 100;
-  content: '0';
-  position: absolute;
-  left: -0.5em;
-  top: -1.5em;
-}
-
-.grid::after {
-  font-size: 0.8em;
-  font-weight: 100;
-  content: '100';
-  position: absolute;
-  right: -1.5em;
-  top: -1.5em;
 }
 
 .bar {
@@ -134,19 +137,38 @@
 
 /* graph lines */
 
-.graph-lines {
-  height: 202px;
-  width: 260px;
-  color: rgb(224, 228, 232);
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 168px;
-  left: 60px;
-}
-
 .lines {
   z-index: -1;
   border: rgb(224, 228, 232) 0.5px solid;
   margin-top: 40.4px;
+  top: 10px;
+}
+.graph-comparison-boxes {
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  position: absolute;
+  top: 295px;
+  right: 0;
+}
+
+.other-students {
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  width: 106px;
+  background-color: rgb(25, 50, 81);
+  color: white;
+  text-align: center;
+}
+
+.you {
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  width: 42px;
+  margin-left: 10px;
+  background-color: rgb(255, 222, 215);
+  color: rgb(255, 90, 54);
+  text-align: center;
 }
