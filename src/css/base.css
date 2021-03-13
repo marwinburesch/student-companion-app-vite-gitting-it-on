@@ -53,7 +53,6 @@ body {
 
 .header-grid {
   position: relative;
-  color: blue;
   grid-row: header;
   width: 375px;
   overflow-y: hidden;
@@ -63,7 +62,6 @@ body {
   align-items: center;
 }
 .main-grid {
-  color: red;
   grid-row: main;
   overflow-y: scroll; /* turn this off later */
   position: relative;
@@ -75,7 +73,6 @@ body {
   padding: 5px;
   display: flex;
   justify-content: space-evenly;
-  color: green;
   grid-row: footer;
   overflow-y: hidden;
   height: 44px;
