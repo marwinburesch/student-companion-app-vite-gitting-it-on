@@ -127,3 +127,8 @@ h6 {
   font-size: 12px;
   font-weight: 200;
 }
+
+.idol-icon {
+  color: var(--color-secondary);
+  opacity: 45.3%;
+}
