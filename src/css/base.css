@@ -61,7 +61,7 @@ h3 {
 
 .layout-grid {
   display: grid;
-  grid-template-rows: [header] 59px [main] auto [footer] 59px;
+  grid-template-rows: [header] 59px [main] auto;
   grid-template-columns: [width] 375px;
   width: 375px;
   height: 100vh;
@@ -87,15 +87,16 @@ h3 {
 }
 .footer-grid {
   /* check scrollable content underneath */
+  position: absolute;
+  bottom: 10px;
   padding: 5px;
   display: flex;
   justify-content: space-evenly;
-  grid-row: footer;
-  overflow-y: hidden;
   height: 44px;
   width: 335px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.11), 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-dark-background);
   align-items: center;
   justify-self: center;
   margin: 0 10px;
