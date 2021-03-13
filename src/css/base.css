@@ -15,6 +15,13 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  color: var(--color-primary-blue);
+  font-size: 14px;
+  line-height: 1.429;
+  font-weight: 200;
+}
+
 /* wrapped in base-h1-h2-wrapper */
 .welcome {
   color: var(--color-primary-blue);
@@ -55,15 +62,14 @@ h3 {
 .layout-grid {
   display: grid;
   grid-template-rows: [header] 59px [main] auto [footer] 59px;
+  grid-template-columns: [width] 375px;
   width: 375px;
   height: 100vh;
-  margin-left: 30px;
-  margin-right: 30px;
+  justify-content: center;
 }
 
 .header-grid {
   position: relative;
-  color: blue;
   grid-row: header;
   width: 375px;
   overflow-y: hidden;
@@ -73,18 +79,17 @@ h3 {
   align-items: center;
 }
 .main-grid {
-  color: red;
   grid-row: main;
   overflow-y: scroll; /* turn this off later */
-  margin: 0 30px;
   position: relative;
+  justify-content: center;
+  padding: 0 30px;
 }
 .footer-grid {
   /* check scrollable content underneath */
   padding: 5px;
   display: flex;
   justify-content: space-evenly;
-  color: green;
   grid-row: footer;
   overflow-y: hidden;
   height: 44px;
@@ -101,4 +106,22 @@ h3 {
   grid-row: header;
   grid-column: width;
   align-items: center;
+}
+
+h3 {
+  font-size: 14px;
+  color: var(--color-primary-blue);
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 14px;
+  color: var(--color-primary-blue);
+  font-weight: 500;
+}
+
+h6 {
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 200;
 }
