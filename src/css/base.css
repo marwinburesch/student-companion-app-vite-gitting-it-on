@@ -18,10 +18,8 @@ p {
   color: var(--color-primary-blue);
   font-size: 14px;
   line-height: 1.429;
-  font-weight: 200;
+  font-weight: 400;
 }
-
-/* wrapped in base-h1-h2-wrapper */
 .welcome {
   color: var(--color-primary-blue);
   font-weight: 700;
@@ -32,7 +30,9 @@ p {
   line-height: 1.125;
 }
 
-/* wrapped in base-h1-h2-wrapper */
+.h1-only {
+  padding-top: 10px;
+}
 
 .header-h2 {
   color: var(--color-secondary);
@@ -48,7 +48,7 @@ p {
 h3 {
   color: var(--color-primary-blue);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.143;
   margin-bottom: 10px;
   margin-top: 30px;
@@ -57,14 +57,14 @@ h3 {
 h4 {
   font-size: 14px;
   color: var(--color-primary-blue);
-  font-weight: 500;
+  font-weight: 600;
   margin: 0px 0 10px 0;
 }
 
 h6 {
   color: var(--color-secondary);
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 400;
   margin: 20px 0 10px 0;
 }
 
