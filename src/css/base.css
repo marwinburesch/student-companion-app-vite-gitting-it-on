@@ -32,6 +32,10 @@ p {
   line-height: 1.125;
 }
 
+.h1-only {
+  padding-top: 10px;
+}
+
 /* wrapped in base-h1-h2-wrapper */
 
 .header-h2 {
@@ -48,7 +52,7 @@ p {
 h3 {
   color: var(--color-primary-blue);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.143;
   margin-bottom: 10px;
   margin-top: 30px;
