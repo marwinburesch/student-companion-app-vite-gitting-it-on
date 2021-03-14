@@ -89,15 +89,19 @@ h6 {
 }
 .main-grid {
   grid-row: main;
-  overflow-y: scroll; /* turn this off later */
   position: relative;
   justify-content: center;
   padding: 0 30px;
+  padding-bottom: 60px;
 }
 
 .footer-grid {
   /* check scrollable content underneath */
-  position: absolute;
+  position: relative;
+}
+
+.nav-bar {
+  position: fixed;
   bottom: 10px;
   padding: 5px;
   display: flex;
@@ -109,7 +113,7 @@ h6 {
   background-color: var(--color-dark-background);
   align-items: center;
   justify-self: center;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .idol-icon {
