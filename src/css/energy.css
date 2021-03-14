@@ -2,7 +2,7 @@
 
 .graph-title {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: var(--color-primary-blue);
@@ -83,14 +83,14 @@
     rotate(-90deg);
 }
 
-.bar::after {
+/* .bar::after {
   transform: translateY(-50%) rotate(45deg);
   display: block;
 }
 .bar::before,
 .bar::after {
   transform: translateX(-0.2em) rotate(90deg);
-}
+} */
 
 .stamps {
   position: relative;
@@ -118,14 +118,14 @@
   border-radius: 0 8px 8px 0;
 }
 
-.bar::after {
+/* .bar::after {
   content: attr(data-name);
   margin-left: 100%;
   line-height: 50px;
   padding: 10px;
   display: inline-block;
   white-space: nowrap;
-}
+} */
 
 .black {
   background-color: var(--color-primary-blue) !important;
@@ -191,7 +191,7 @@
   line-height: 1.5;
   border-radius: 3px;
   width: 106px;
-  padding: 1.5px 8.5px 2px 8.5px;
+  padding: 0.5px 8.5px 2px 8.5px;
   background-color: var(--color-primary-blue);
   color: var(--color-dark-background);
   text-align: center;
@@ -202,7 +202,7 @@
   line-height: 1.5;
   border-radius: 3px;
   width: 42px;
-  padding: 1.5px 8.5px 2px 8.5px;
+  padding: 0.5px 8.5px 2px 8.5px;
   margin-left: 10px;
   background-color: var(--color-25);
   color: var(--color-primary-red);
