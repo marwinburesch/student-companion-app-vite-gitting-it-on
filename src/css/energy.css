@@ -10,11 +10,12 @@
 
 .energy-title {
   position: absolute;
-  top: 20px;
+  top: 10px;
 }
 
 .graph-parent {
   position: relative;
+  top: -12px;
 }
 
 .graph-comparison-boxes {
@@ -22,7 +23,7 @@
   justify-content: flex-end;
   height: 20px;
   position: absolute;
-  top: 295px;
+  top: 283px;
   right: 30px;
 }
 
