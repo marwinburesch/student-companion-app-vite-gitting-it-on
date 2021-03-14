@@ -20,8 +20,6 @@ p {
   line-height: 1.429;
   font-weight: 400;
 }
-
-/* wrapped in base-h1-h2-wrapper */
 .welcome {
   color: var(--color-primary-blue);
   font-weight: 700;
@@ -35,8 +33,6 @@ p {
 .h1-only {
   padding-top: 10px;
 }
-
-/* wrapped in base-h1-h2-wrapper */
 
 .header-h2 {
   color: var(--color-secondary);
