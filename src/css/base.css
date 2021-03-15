@@ -95,25 +95,21 @@ h6 {
   padding-bottom: 60px;
 }
 
-.footer-grid {
-  /* check scrollable content underneath */
-  position: relative;
+.footer-position {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
 }
 
 .nav-bar {
-  position: fixed;
-  bottom: 10px;
-  padding: 5px;
+  padding: 10px 5px 5px 5px;
   display: flex;
   justify-content: space-evenly;
-  height: 44px;
-  width: 335px;
   border-radius: 10px;
   box-shadow: 0 2px 11px 0px rgba(25, 50, 81, 0.2);
   background-color: var(--color-dark-background);
   align-items: center;
-  justify-self: center;
-  margin: 0 20px;
 }
 
 .idol-icon {
