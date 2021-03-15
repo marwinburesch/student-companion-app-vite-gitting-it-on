@@ -83,7 +83,7 @@ h6 {
   width: 375px;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-image: url(/src/svgs/background_shape_1.svg);
+  background-image: url(svgs/background_shape_1.svg);
   justify-content: center;
   align-items: center;
 }
