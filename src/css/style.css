@@ -1,8 +1,7 @@
 @import './colors.css';
 @import './utility.css';
 @import './base.css';
-@import './components/welcome.css';
-@import '/src/css/components/journal-card.css';
-@import '/src/css/energy.css';
+@import './components/journal-card.css';
+@import './energy.css';
 @import './components/teams.css';
 @import './components/code-buddys.css';
